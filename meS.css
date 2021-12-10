@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+ background-image: url(img/5.jpg);
+ background-position: center;
+ background-size: cover;
+ font-family: sans-serif;
+ margin-top: 40px;
+}
+.surForm
+{
+    width: 800px;
+    background-color: rgb(0,0,0,0.6);
+    margin: auto;
+    color: #FFFFFF;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius: 15px 15px 0px 0px;
+}
+.main
+{
+    background-color: rgb(0,0,0,0.5);
+    width:800px;
+    margin:auto;
+}
+form{
+    padding:10px;
+}
+#name
+{
+    width:100%;
+    height: 100px;
+}
+.name
+{
+    margin-left: 25px;
+    margin-top:30px;
+    width:125px;
+    color:white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.nameInput
+{
+    position:relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+}
+.surnameInput
+{
+    position: relative;
+    left:417px;
+    top:-80px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.nameLabe
+{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size:14px;
+    left: 202px;
+    top: -45px;
+}
+.SurnameLabel
+{
+    position: relative;
+    color:#E5E5E5;
+    text-transform: capitalize;
+    font-size:14px;
+    left: 168px;
+    top: -45px;
+}
+.user_Name
+{
+    position: relative;
+    left:200px;
+    top:-35px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+.pass
+{
+    position: relative;
+    left:200px;
+    top:-32px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+.passCon
+{
+    position: relative;
+    left:200px;
+    top:-42px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.cellNumber
+{
+    position: relative;
+    left:200px;
+    top:-42px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+
+.EmailAddress
+{
+    position: relative;
+    left:200px;
+    top:-42px;
+    width:300px;
+    line-height:40px ;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size:16px;
+    color:#555;
+}
+.option
+{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:210px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+    color:#555;
+    height:40px;
+    outline: none;
+    overflow:hidden;
+}
+
+.upload_box
+{
+    position: relative;
+    left:200px;
+    top:-38px;
+    font-size:16px;
+    border-radius: 50px;
+    box-shadow:5px 5px 10px black ;
+    width:240px;
+    outline:none;
+}
+::-webkit-file-upload-button
+{
+    color:white;
+    background:#206a5d;
+    padding:20px;
+    border:none;
+    border-radius:50px;
+    box-shadow:1px 0 1px 1px #6b4559 ;
+    outline:none;
+}
+::-webkit-file-upload-button:hover
+{
+    background:#438a5e;
+}
+.btn
+{
+    outline:none;
+    display:block;
+    border: 0;
+    font-size:16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background:#FFFFFF;
+    color:#0081D5 ;
+    cursor:pointer;
+
+    position: relative;
+    left:250px;
+    top:40px;
+
+}
+
+.btnHome
+{
+    outline:none;
+    display:block;
+    border: 0;
+    font-size:16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background:#FFFFFF;
+    color:#0081D5 ;
+    cursor:pointer;
+
+    position: relative;
+    left:500px;
+    top:-5px; 
+}
